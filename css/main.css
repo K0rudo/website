@@ -1,0 +1,143 @@
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+    border: none;
+    background: #E0FFFF;
+}
+header {
+    background-color: #5F9EA0;
+    height: 120px;
+}
+
+.header_str {
+    
+    text-align: center;
+    padding-top: 45px;
+    line-height: 20px;
+    font-size: 45px;
+    font-family: 'Rubik', Arial, sans-serif;
+    font-weight: 500px;
+    color: #FFFAFA;
+
+
+}
+
+.custom-list {
+  background: #5F9EA0;
+  padding: 20px;
+  list-style-type: upper-roman;
+}
+.custom-list li {
+  background: #00FFFF;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+
+.center-border {
+    padding: 5px; 
+    box-sizing: border-box; 
+    background: #5F9EA0;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.game {
+    text-align: center;
+    background: #AFEEEE;
+    border: 2px solid #000;
+    padding: 20px;
+    max-width: 80%;
+    margin: 20px 0;
+}
+
+.game img {
+    max-width: 70%;
+    max-height: 70%;
+}
+
+.game p {
+    font-size: 25px;
+}
+
+
+
+.string_of_img {
+
+
+    text-align: justify;
+    color: #FFFAFA;
+    font-family: 'Rubik', Arial, sans-serif;
+    
+
+}
+
+.string_of {
+
+
+    text-align: justify;
+    color: black;
+     font-family: 'Rubik', Arial, sans-serif;
+    
+}
+.string_of_h {
+
+
+    text-align: center;
+    color: black;
+     font-family: 'Rubik', Arial, sans-serif;
+}
+.response_card_flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.response_card {
+
+
+    border-style: solid;
+    border-color: #000;
+    text-align: left;
+    box-shadow: 0 0 0px ;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    max-width: 250px;
+
+}
+@media (max-width: 768px) {
+    .game {
+        font-size: 14px; 
+         margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 480px) {
+    .game {
+        font-size: 12px; 
+         margin-left: 8px;
+        margin-right: 8px;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+}
