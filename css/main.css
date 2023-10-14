@@ -141,3 +141,15 @@ header {
         margin-right: 8px;
     }
 }
+@media (max-width: 768px) {
+    .center-border {
+        padding: 3px; 
+        font-size: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .center-bordery {
+        padding: 3px; 
+        font-size: 18px;
+    }
+}
